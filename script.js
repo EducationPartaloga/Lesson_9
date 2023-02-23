@@ -21,20 +21,23 @@ function alphabetPosition(text) {
     let result = ''
     
     let alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
-    let separator = ''
+
+    text = text.toLowerCase()
+
+    let separator = ' '
 
     for (let i=0; i < text.length; i++) {
 
         let res = alphabet.indexOf(text[i])
         if (res !== -1) {
             result = result + separator + (res + 1)
-            separator = ''
+            separator = ' '
         }
     }
 
-    console.log(alphabet.length)
+    
 
     return result
 }
+console.log(alphabetPosition("The sunset sets at twelve o' clock"));
 
-alphabetPosition("The sunset sets at twelve o' clock")
