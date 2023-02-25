@@ -27,13 +27,25 @@
 
 
 
-function fizBuz(numbers) {
+function fizBaz(numbers) {
 
-    
+    for (let i = 0; i <= numbers; i++){
+
+    if (i % 3 === 0 && i % 5 === 0) {
+        console.log("fizBaz");
+    }else if (i % 5 === 0) {
+        console.log("Baz");
+    }else if (i % 3 === 0){
+        console.log("fiz");
+    }else {
+        console.log(i);
+    }
+
+    }
 
 }
 
-let result = fizBaz(100)
+let result = fizBaz(30)
 
 console.log(result);
 
