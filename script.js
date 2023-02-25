@@ -1,7 +1,32 @@
+ function highAndLow(numbers) {
+
+    console.log(numbers.length);
+    // numbers.length
+    // let min = 
+ }
+
+ highAndLow("1 2 3 4 5")
 
 
-// var CityName = "Odessa"
-// let cityName = "Kyev"
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+ // var CityName = "Odessa"
+// let cityName = "Kyiv"
 // const CITY_NAME = "Dnepro"
 
 
@@ -17,25 +42,30 @@
 
 // console.log(cars.color);
 
-function alphabetPosition(text) {
-    let result = ''
+
+// //---//
+
+// function alphabetPosition(text) {
+//     let result = ''
     
-    let alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
+//     let alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
 
-    text = text.toLowerCase()
+//     text = text.toLowerCase()
 
-    let separator = ' '
+//     let separator = ' '
 
-    for (let i=0; i < text.length; i++) {
+//     for (let i=0; i < text.length; i++) {
 
-        let res = alphabet.indexOf(text[i])
-        if (res !== -1) {
-            result = result + separator + (res + 1)
-            separator = ' '
-        }
-    }
+//         let res = alphabet.indexOf(text[i])
+//         if (res !== -1) {
+//             result = result + separator + (res + 1)
+//             separator = ' '
+//         }
+//     }
 
-    return result
-}
-console.log(alphabetPosition("The sunset sets at twelve o' clock"));
+//     return result
+// }
+// console.log(alphabetPosition("The sunset sets at twelve o' clock"));
+
+// //---//
 
