@@ -1,28 +1,44 @@
- function highAndLow(numbers) {
+//  function highAndLow(numbers) {
 
     
-    let min = Number(numbers[0])
-    let max = Number(numbers[0])
+//     let min = Number(numbers[0])
+//     let max = Number(numbers[0])
 
-    numbers = numbers.split(" ");
+//     numbers = numbers.split(" ");
 
-    for (let i = 0; i < numbers.length; i++) {
-        if (Number(numbers[i]) < min) {
-            min = Number(numbers[i])
-        }
+//     for (let i = 0; i < numbers.length; i++) {
+//         if (Number(numbers[i]) < min) {
+//             min = Number(numbers[i])
+//         }
 
-        if (Number(numbers[i]) > max) {
-            max = Number(numbers[i])
-        }
-    }
+//         if (Number(numbers[i]) > max) {
+//             max = Number(numbers[i])
+//         }
+//     }
 
-    return max + ' ' + min
+//     return max + ' ' + min
 
- }
+//  }
 
- let result = highAndLow("1 2 3 4 5");
+//  let result = highAndLow("1 2 3 4 5");
 
- console.log(result);
+//  console.log(result);
+
+
+
+
+function fizBuz(numbers) {
+
+    
+
+}
+
+let result = fizBaz(100)
+
+console.log(result);
+
+
+
 
 
 
